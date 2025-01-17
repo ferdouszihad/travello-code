@@ -7,28 +7,48 @@
 }
 
 body {
-  background-image: linear-gradient(60deg, #ffff, #7921ed);
+  background-image: linear-gradient(10deg, #ffff, #7921ed);
 }
 .btn {
   background-color: #872bff;
   border-radius: 20px;
-  padding: 8px 15px;
+  padding: 18px 25px;
   border: none;
+  cursor: pointer;
   color: #fff;
+  transition: all 0.3s;
+}
+.btn:hover {
+  background-color: #ff2bed;
+  color: #fff;
+}
+.btn-container {
+  text-align: center;
 }
 img {
   width: 100%;
+}
+.heading {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.heading p {
+  color: #f411cf;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.heading h2 {
+  font-size: 32px;
 }
 
 .banner {
   padding: 60px 0px;
 }
 .banner-box {
-  width: 80%;
+  width: 87.5%;
   margin: 0 auto;
   padding: 20px 30px;
-
-  background-image: linear-gradient(#ffffffdc, #ffffffa2),
+  background-image: linear-gradient(rgb(255, 255, 255, 0.9), #ffffff80),
     url(./../images/hero-bg.png);
   border-radius: 30px;
   display: flex;
@@ -44,5 +64,75 @@ img {
   margin-bottom: 20px;
 }
 .banner-img {
-  width: 450px;
+  width: 600px;
+}
+.services {
+  padding: 60px 0;
+}
+.service-box {
+  width: 87.5%;
+  margin: 0 auto;
+}
+
+.service-card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.service-card {
+  background-color: antiquewhite;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  max-width: 250px;
+}
+.service-card .service-icon {
+  width: 50px;
+  background-color: #ddd;
+  padding: 10px;
+  border-radius: 100px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.service-card h2 {
+  margin-bottom: 40px;
+}
+.service-card p {
+  margin-bottom: 30px;
+  color: #a8a8a8;
+  line-height: 30px;
+}
+.service-card-1 {
+  background: linear-gradient(180deg, #c3f7fe, #ffffe4);
+}
+.service-card-2 {
+  background: linear-gradient(180deg, #c3fec4, #ffffe4);
+}
+.service-card-3 {
+  background: linear-gradient(180deg, #fec3ca, #ffffe4);
+}
+
+.countries {
+  padding: 60px 0;
+}
+.countries-box {
+  width: 87.5%;
+  margin: 0 auto;
+}
+.country-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+.country-card {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.country-card:hover {
+  background-color: #872bff50;
+  color: #fff;
 }
