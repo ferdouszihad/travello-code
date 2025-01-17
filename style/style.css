@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Plus Jakarta Sans", serif;
+}
+
+body {
+  background-image: linear-gradient(60deg, #ffff, #7921ed);
+}
+.btn {
+  background-color: #872bff;
+  border-radius: 20px;
+  padding: 8px 15px;
+  border: none;
+  color: #fff;
+}
+img {
+  width: 100%;
+}
+
+.banner {
+  padding: 60px 0px;
+}
+.banner-box {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 30px;
+
+  background-image: linear-gradient(#ffffffdc, #ffffffa2),
+    url(./../images/hero-bg.png);
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-content h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+.banner-content p {
+  color: #a8a8a8;
+  margin-bottom: 20px;
+}
+.banner-img {
+  width: 450px;
+}
